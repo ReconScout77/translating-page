@@ -9,24 +9,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>Talk to Yoko!</h1>
-      <p>Click a button to see the translation!</p>
+      <div class="jumbotron">
+        <h1>Talk to Yoko!</h1>
+        <p>Click a button to see the translation!</p>
 
-      <button class="btn btn-primary" id="goodmorning">Good Morning!</button>
-      <button class="btn btn-inverse" id="goodnight">Good Night!</button>
-      <button class="btn btn-danger" id="cya">See You Later!</button>
+        <button class="btn btn-primary" id="goodmorning">Good Morning!</button>
+        <button class="btn btn-inverse" id="goodnight">Good Night!</button>
+        <button class="btn btn-danger" id="cya">See You Later!</button>
+      </div>
 
       <div class="row">
         <div class="col-md-6">
           <h2>You said:</h2>
-          <ul>
+          <ul id="user">
 
           </ul>
         </div>
 
         <div class="col-md-6">
           <h2>Yoko said back:</h2>
-          <ul>
+          <ul id="yoko">
 
           </ul>
         </div>
